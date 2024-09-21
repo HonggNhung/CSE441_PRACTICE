@@ -27,7 +27,17 @@ public class MainActivity extends AppCompatActivity {
         edtB = findViewById(R.id.edtB);
         edtKQ = findViewById(R.id.edtKQ);
         btntong = findViewById(R.id.btntong);
-
+        //Xu ly tuong tac voi nguoi dung
+        //Bat su kien button onclick
+        btntong.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                int a = Integer.parseInt(edtA.getText().toString());
+                int b = Integer.parseInt(edtB.getText().toString());
+                int Tong = a+b;
+                edtKQ.setText(Tong + "");
+            }
+        });
 
         ViewCompat.setOnApplyWindowInsetsListener(findViewById(R.id.main), (v, insets) -> {
             Insets systemBars = insets.getInsets(WindowInsetsCompat.Type.systemBars());
