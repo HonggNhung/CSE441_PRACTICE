@@ -1,0 +1,32 @@
+[
+    {
+        "id": "001",
+        "full_name": {
+            "first": "Hồng Nhung",
+            "last": "Dương",
+            "midd": "Thị"
+        },
+        "gender": "Nữ",
+        "birth_date": "10/10/2002",
+        "email": "nhungne@gmail.com",
+        "address": "Hà Nội",
+        "major": "CNTT",
+        "gpa": 4.0,
+        "year": 4
+    },
+    {
+        "id": "002",
+        "full_name": {
+            "first": "Thắng",
+            "last": "Bá",
+            "midd": "Nguyễn"
+        },
+        "gender": "Nam",
+        "birth_date": "08/06/2002",
+        "email": "thangne@gmail.com",
+        "address": "Bắc Ninh",
+        "major": "CNTT",
+        "gpa": 1.0,
+        "year": 5
+    }
+]

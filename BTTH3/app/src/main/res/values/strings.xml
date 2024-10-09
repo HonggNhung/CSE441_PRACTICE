@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">BTTH3</string>
+    <string name="gender_image">Hình ảnh giới tính</string> <!-- Thêm dòng này -->
+    <!-- Các chuỗi khác -->
+</resources>
