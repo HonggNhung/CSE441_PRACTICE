@@ -1,19 +1,130 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:id="@+id/main"
-    android:layout_width="match_parent"
-    android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity"
+    android:layout_width="409dp"
+    android:layout_height="729dp"
+    android:orientation="vertical"
+    tools:layout_editor_absoluteX="1dp"
+    tools:layout_editor_absoluteY="1dp">
 
     <TextView
-        android:layout_width="wrap_content"
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintEnd_toEndOf="parent"
-        app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+        android:gravity="center"
+        android:text="Thong tin ca nhan" />
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <TableLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="Ho ten"></TextView>
+
+            <EditText
+                android:id="@+id/edt_hoten"
+                android:layout_width="369dp"
+                android:layout_height="match_parent"></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:text="CMND"></TextView>
+
+            <EditText
+                android:id="@+id/edt_cmnd"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></EditText>
+        </TableRow>
+    </TableLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Bang cap"></TextView>
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="59dp"
+        android:orientation="horizontal"
+        android:id="@+id/rg_bangcap">
+
+        <RadioButton
+            android:id="@+id/rb_daihoc"
+            android:layout_width="80sp"
+            android:layout_height="wrap_content"
+            android:text="Dai hoc"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_caodang"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Cao dang"></RadioButton>
+
+        <RadioButton
+            android:id="@+id/rb_trungcap"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:text="Trung cap"></RadioButton>
+    </RadioGroup>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="So thich"></TextView>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+
+        <CheckBox
+            android:id="@+id/cb_docbao"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doc bao"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/cb_docsach"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doc sach"></CheckBox>
+
+        <CheckBox
+            android:id="@+id/cb_doccoding"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Doc coding"></CheckBox>
+    </LinearLayout>
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Thong tin bo sung">
+    </TextView>
+    <EditText
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/edt_bosung">
+    </EditText>
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Gui thong tin"
+        android:id="@+id/btn_guitt">
+    </Button>
+</LinearLayout>
