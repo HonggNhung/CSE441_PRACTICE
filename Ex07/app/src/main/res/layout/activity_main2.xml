@@ -5,13 +5,13 @@
     android:id="@+id/main"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".MainActivity">
+    tools:context=".MainActivity2">
 
     <LinearLayout
         android:id="@+id/linearLayout"
         android:layout_width="409dp"
         android:layout_height="354dp"
-        android:background="#4CAF50"
+        android:background="#FFEB3B"
         android:gravity="center"
         android:orientation="vertical"
         tools:layout_editor_absoluteX="1dp"
@@ -21,8 +21,8 @@
             android:id="@+id/textView"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:text="This is main Activity"
-            android:textColor="#FFEB3B"
+            android:text="This is Child Activity"
+            android:textColor="#4CAF50"
             android:textSize="20sp" />
     </LinearLayout>
 
@@ -30,7 +30,7 @@
         android:id="@+id/button"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Open Child Activity"
+        android:text="Open Main Activity"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
         tools:layout_editor_absoluteY="380dp" />
