@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity2">
+
+    <TableLayout
+        android:layout_width="409dp"
+        android:layout_height="729dp"
+        tools:layout_editor_absoluteX="1dp"
+        tools:layout_editor_absoluteY="1dp">
+
+        <TextView
+            android:id="@+id/textView3"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Chuong trinh tinh chi so BMI" />
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40sp">
+
+            <TextView
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+                android:gravity="center"
+                android:text="Nhap ten"></TextView>
+
+            <EditText
+                android:id="@+id/edtten"
+                android:layout_width="300sp"
+                android:layout_height="40sp"
+                android:gravity="center"></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="40sp">
+
+            <TextView
+                android:layout_width="90sp"
+                android:layout_height="40sp"
+                android:text="Chieu cao"
+                android:gravity="center"></TextView>
+
+            <EditText
+                android:id="@+id/edtchieucao"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
+            <TextView
+                android:layout_width="90sp"
+                android:layout_height="40sp"
+                android:text="Can nang"
+                android:gravity="center"></TextView>
+
+            <EditText
+                android:id="@+id/edtcannang"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></EditText>
+
+        </TableRow>
+
+        <Button
+            android:id="@+id/btnBMI"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:gravity="center"
+            android:text="Tinh BMI" />
+
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="204dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:gravity="center"
+                android:text="BMI =">
+            </TextView>
+
+            <EditText
+                android:id="@+id/edtBMI"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></EditText>
+        </TableRow>
+
+        <TableRow
+            android:layout_width="match_parent"
+            android:layout_height="204dp" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40sp"
+                android:gravity="center"
+                android:text="Chuan doan"></TextView>
+
+            <EditText
+                android:id="@+id/edtChuanDoan"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"></EditText>
+        </TableRow>
+    </TableLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
