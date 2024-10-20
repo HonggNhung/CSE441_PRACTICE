@@ -2,4 +2,9 @@
 <resources>
     <item name="txtmaso" type="id" />
     <item name="txttieude" type="id" />
+    <item name="btnxoa" type="id" />
+    <item name="edttim" type="id" />
+    <item name="lv2" type="id" />
+    <item name="lv3" type="id" />
+    <item name="lv1" type="id" />
 </resources>
