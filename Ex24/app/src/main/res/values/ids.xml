@@ -1,0 +1,6 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="imgHinh" type="id" />
+    <item name="lv1" type="id" />
+    <item name="txtdate" type="id" />
+</resources>
