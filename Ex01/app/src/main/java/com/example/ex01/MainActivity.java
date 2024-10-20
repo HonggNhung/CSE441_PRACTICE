@@ -29,6 +29,7 @@ public class MainActivity extends AppCompatActivity {
         btntong = findViewById(R.id.btntong);
         //Xu ly tuong tac voi nguoi dung
         //Bat su kien button onclick
+        //
         btntong.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
